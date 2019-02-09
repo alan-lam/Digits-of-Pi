@@ -22,15 +22,13 @@
         android:layout_below="@id/title"
         android:gravity="center"
         android:textSize="20sp"
-        android:layout_marginBottom="30dp"
-        android:text="Number of digits: 3" />
+        android:layout_marginBottom="30dp" />
 
     <TextView
         android:id="@+id/digits"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="3.14"
         android:textSize="100sp"
         android:layout_marginBottom="30dp"
         android:layout_below="@id/num_of_digits" />
@@ -46,6 +44,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:onClick="back"
             android:text="back" />
 
         <Button
@@ -53,6 +52,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:onClick="reset"
             android:text="reset" />
 
         <Button
@@ -60,6 +60,7 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:onClick="next"
             android:text="next" />
 
     </LinearLayout>

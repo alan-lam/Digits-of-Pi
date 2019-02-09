@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DigitsofPi.iml" filepath="$PROJECT_DIR$/DigitsofPi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Digits of Pi.iml" filepath="$PROJECT_DIR$/Digits of Pi.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
